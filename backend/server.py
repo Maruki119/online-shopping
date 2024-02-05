@@ -47,10 +47,14 @@ def create_user():
             "fullname": data["fullname"],
             "balance": 0
         }
-        users_collection.insert_one(new_user)
-        return jsonify(new_user), 200
+        all_users = list(users_collection.find())
+        if(next((s for s in all_users if s["user"] == data["user"]), None)):
+            return jsonify( {"error":"Cannot create new user"}), 500
+        else:
+            users_collection.insert_one(new_user)
+            return jsonify(new_user),200
     except Exception as e:
-        return jsonify({"error":"Cannot create new user"}), 500     
+        print(e)
      
 @app.route("/api/users/<int:user_id>", methods = ["PUT"])
 def update_user(user_id):
