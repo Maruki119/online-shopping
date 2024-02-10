@@ -1,28 +1,110 @@
-    .App-header {
+    .Navbar {
         display: flex;
         height: 105px;
-        background-color: #7e7e7e;
-        color: white;
+        background-color: rgb(226, 220, 220);
+    }
+    
+
+    .logo{
+        width: 145px ;
+        height: 85px;
+        display: flex;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 15px;
+        padding-right: 15px;  
+        margin-left: 35px; 
     }
 
-    .App-name
-    {
+    .menu{
+        width: 32px ;
+        height: 32px;
+        display: flex;
+        padding-top: 37px;
+        padding-bottom: 35px;
+        padding-left: 60px;
+        padding-right: 100px;
+
         h1{
+            display: flex;
+            font-family: Georgia, serif;
+            font-size: 18px;
+            color:#436850;
+            align-items: center;
+            padding-left: 10px;
+            padding-right: 15px;
             
-            font-size: 25px;
-            width: 200px;
-            height: 50px;
-
-        }
-        .App-name2
-        {
-            h2{
-                font-size: 20px;
-                width: 200px;
-                height: 10px;
-                padding: 15px; 
-            }
         }
     }
+
+    .App-search{
+        width: 750px;
+        display: flex;
+        align-items: center;
+        margin-top: 15px;
+        padding: 35px;
+    }
+
+    input {
+        width: 100%;
+        display: flex;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 2px solid #436850;
+        border-radius: 5px;
+        font-size: 16px;
+    }
+
+   .Sign-in .sign-in-button{
+     display: flex;
+     height: 50px;
+     justify-content: center;
+     align-items: center;
+     color: white;
+     padding: 15px;
+     text-align: center;
+     font-size: 16px;
+     background-color: #436850;
+     border: none;
+     border-radius: 10px;
+   }
+
+   .Sign-up .sign-up-button{
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    color: #436850;
+    padding: 15px;
+    text-align: center;
+    font-size: 16px;
+    border-color: 2px #436850 ;
+    border-radius: 10px;
+  }
+   
+   .Sign-in {
+     display: flex;
+     width: 150px;
+     align-items: center;
+     margin-left: 50px;
+     margin-right: 10px;
+   }
+   
+   .Sign-up {
+     display: flex;
+     width: 150px;
+     align-items: center;
+     margin-right: 50px;
+   }
+   
+
+   
+  
+    
+
+
+
+
+
 
  
