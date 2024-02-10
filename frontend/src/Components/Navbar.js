@@ -10,8 +10,8 @@
                 </div>
                 <div className='menu'>
                     <img className='App-menu' src = '/images/menu-burger.png'/>
-                    <h1>Menu</h1>
                 </div>
+                <h1>เลือกหมวด</h1>
                 <div className="App-search">
                     <input
                     className='serch-input'
