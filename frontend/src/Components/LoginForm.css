@@ -1,0 +1,149 @@
+.Bg-SignIn{
+  background-color: #00000071;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 450px;
+  height: 650px;
+  padding-top: 30px;
+  padding-left: 50px;
+  padding-right: 50px ;
+  padding-bottom: 50px ;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  background-color: #f9f9f9;
+  
+}
+
+.cross-logo{
+  margin-left: 525px;
+}
+
+
+.login-title {
+  font-size: 24px;
+  margin-bottom: 2px;
+  text-align: center;
+}
+.login-subtitle {
+  font-size: 12.8px;
+  text-align: center;
+}
+
+.login-input {
+  width: 85%;
+  padding: 10px;
+  margin: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.login-button {
+  width: 90%;
+  padding: 10px;
+  margin: 20px;
+  background-color: #436850;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-bottom: 10px; 
+}
+
+.apple-button {
+  width: 90%;
+  padding: 10px;
+  background-color: #000000;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-bottom: 10px; 
+}
+.facebook-button {
+  width: 90%;
+  padding: 10px;
+  background-color: #4267B2;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.login-button:hover {
+  background-color: #ADBC9F;
+}
+.apple-button:hover {
+  background-color: #5e5f5e;
+}
+.facebook-button:hover {
+  background-color: #627cb1;
+}
+
+.login-options {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.login-options span {
+  margin-bottom: 10px;
+}
+
+.login-link {
+  color: #2f79e0;
+  text-decoration: none;
+}
+
+.login-link:hover {
+  text-decoration: underline;
+}
+.horizontal-line {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 95%;
+  margin-bottom: 10px;
+}
+
+.line {
+  flex-grow: 1;
+  height: 1px;
+  background-color: #000; /* You can change the color as needed */
+  margin: 0 7px; /* Adjust the margin to control the gap between text and line */
+}
+
+.text-left,.text-right {
+  font-size: 14px; /* Adjust the font size as needed */
+  color: #000; /* You can change the color as needed */
+}
+
+.login-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 145px;
+  height: 145px;
+  margin: 0 auto; /* Adjust the margin as needed */
+  border-radius: 50%;
+}
